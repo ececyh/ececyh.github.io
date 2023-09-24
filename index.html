@@ -58,7 +58,7 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-       <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
+<!--        <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
             <div class="two" id='zipnerf_image'><video  width=100% height=100% muted autoplay loop>
@@ -101,7 +101,38 @@
           Combining mip-NeRF 360 and grid-based models like Instant NGP lets us reduce error rates by 8%&ndash;77% and accelerate training by 24x.
           </p>
         </td>
-      </tr>
+      </tr> -->
+
+      <tr  onmouseover="video_start('kgnav')"  bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one" ><video id='kgnav' width=100% height=100% muted autoplay loop>
+            <source src="images/kgnav_overview.mp4" type="video/mp4" width="160">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <!-- <a href="https://bareblackfoot.github.io/TopologicalSemanticGraphMemory/"> -->
+            <span class="papertitle">KG-Nav: Bridging the Gap between Visual Servoing and Image-Goal Navigation via Keypoint Graph-Based Reinforcement Learning</span>
+          <!-- </a> -->
+          <br>
+            <b>Yunho Choi</b>, <a href="https://rllab.snu.ac.kr/people/jaeseok-heo">Jaeseok Heo</a>, <a href="https://bareblackfoot.github.io/">Nuri Kim</a>,
+              and Songhwai Oh. <br>
+          <em>Under Review</em> &nbsp
+          <br>
+         <!--  <a href="https://bareblackfoot.github.io/TopologicalSemanticGraphMemory/">project page</a>
+          /
+          <a href="https://arxiv.org/abs/2303.00304">arXiv</a>
+          /
+          <a href="https://github.com/rllab-snu/TopologicalSemanticGraphMemory">code</a>
+          /
+          <a href="https://youtu.be/dAnsRLJxGOI">video</a>
+ -->          <p></p>
+      <!--    <p>-->
+      <!--    We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.-->
+      <!--    </p>-->
+        </td>
+        </tr>
 
       <tr  onmouseover="video_start('tsgm')" >
         <td style="padding:20px;width:25%;vertical-align:middle">
@@ -144,11 +175,11 @@
       </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
           <a href="https://rllab-snu.github.io/projects/vgm/doc.html">
-            <papertitle>Visual Graph Memory with Unsupervised Representation for Visual Navigation</span>
+            <span class="papertitle">Visual Graph Memory with Unsupervised Representation for Visual Navigation</span>
           </a>
           <br>
         <a href="https://obin-hero.github.io">Obin Kwon</a>,  <a href="https://bareblackfoot.github.io/">Nuri Kim</a>*,
-            <b>Yunho Choi</b>*,
+            <b>Yunho Choi*</b>,
             <a href="https://rllab.snu.ac.kr/people/hwiyeon-yoo/hwiyeon-yoo">Hwiyeon Yoo</a>*,
             <a href="https://rllab.snu.ac.kr/people/jeongho-park/jeongho-park">Jeongho Park</a>*, Songhwai Oh. (* equal contribution)<br>
           <em>ICCV</em>, 2021. &nbsp
@@ -158,12 +189,100 @@
           <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Kwon_Visual_Graph_Memory_With_Unsupervised_Representation_for_Visual_Navigation_ICCV_2021_paper.html">paper</a>
           /
           <a href="https://github.com/rllab-snu/Visual-Graph-Memory">code</a>
+          /
+          <a href="https://www.youtube.com/watch?v=Uksb_kR80Hk">video</a>
           <p></p>
       <!--    <p>-->
       <!--    We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.-->
       <!--    </p>-->
         </td>
 
+        </tr>
+
+      <tr  onmouseover="video_start('gads')"  bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one" ><video id='gads' width=100% height=100% muted autoplay loop>
+            <source src="images/gads_overview.mp4" type="video/mp4" width="160">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://ieeexplore.ieee.org/document/9196678">
+            <span class="papertitle">Hierarchical 6-DoF Grasping with Approaching Direction Selection</span>
+          </a>
+          <br>
+            <b>Yunho Choi</b>, <a href="https://rllab.snu.ac.kr/people/hogun-kee/hogun-kee">Hogun Kee</a>, <a href="https://sites.google.com/view/railab/professor?authuser=0">Kyungjae Lee</a>,
+            <a href="https://rllab.snu.ac.kr/people/jaegu-choy/people">Jaegoo Choy</a>, Junhong Min, Sohee Lee,
+              and Songhwai Oh. <br>
+          <em>ICRA</em>, 2020. &nbsp
+          <br>
+        <a href="https://rllab.snu.ac.kr/publications/papers/2020_icra_gads.pdf">paper</a>
+        /
+        <a href="https://www.youtube.com/watch?v=UAqcV1DeRjE">video</a>
+        <p></p>
+      <!--    <p>-->
+      <!--    We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.-->
+      <!--    </p>-->
+        </td>
+        </tr>
+
+      <tr  onmouseover="video_start('modgdqn')"  bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one" ><video id='mogdqn' width=100% height=100% muted autoplay loop>
+            <source src="images/gads_overview.mp4" type="video/mp4" width="160">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://ieeexplore.ieee.org/document/8793505">
+            <span class="papertitle">Distributional Deep Reinforcement Learning with a Mixture of Gaussians</span>
+          </a>
+          <br>
+            <b>Yunho Choi</b>, <a href="https://sites.google.com/view/railab/professor?authuser=0">Kyungjae Lee</a>,
+              and Songhwai Oh. <br>
+          <em>ICRA</em>, 2020. &nbsp
+          <br>
+        <a href="https://rllab.snu.ac.kr/publications/papers/2019_icra_ddrl_mog.pdf">paper</a>
+        /
+        <a href="https://github.com/rllab-snu/mog_dqn_car_racing">code</a>
+        <p></p>
+      <!--    <p>-->
+      <!--    We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.-->
+      <!--    </p>-->
+        </td>
+        </tr>
+
+      <tr  onmouseover="video_start('text2action')">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one" ><video id='text2action' width=100% height=100% muted autoplay loop>
+            <source src="images/gads_overview.mp4" type="video/mp4" width="160">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://ieeexplore.ieee.org/document/8460608">
+            <span class="papertitle">Text2Action: Generative Adversarial Synthesis from Language to Action</span>
+          </a>
+          <br>
+            <a href="https://hyeminahn.oopy.io/">Hyemin Ahn</a>, 
+            <a href="https://rllab.snu.ac.kr/people/alumni-folder/timothy-ha">Timothy Ha</a>*, <b>Yunho Choi*</b>, 
+            <a href="https://rllab.snu.ac.kr/people/hwiyeon-yoo/hwiyeon-yoo">Hwiyeon Yoo</a>*, 
+              and Songhwai Oh. <br>
+          <em>ICRA</em>, 2018. &nbsp
+          <br>
+        <a href="https://rllab.snu.ac.kr/publications/papers/2018_icra_text2action.pdf">paper</a>
+        /
+        <a href="https://github.com/hiddenmaze/Text2Action">code</a>
+        /
+        <a href="https://youtu.be/LSN63LI0Qa8">video</a>
+        <p></p>
+      <!--    <p>-->
+      <!--    We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.-->
+      <!--    </p>-->
+        </td>
         </tr>
 
    <!--    <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
