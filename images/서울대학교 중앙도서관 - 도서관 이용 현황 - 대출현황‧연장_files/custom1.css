@@ -1,0 +1,1602 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+/****************** Primo 검색박스 상단 Start  ****************************/
+ /* Primo 검색박스 상단 배경색 */
+ .top-nav-bar.layout-row {
+    /*background-color: #987c4d !important;*/
+	/*height: 60px !important;*/
+	background-color: white !important;
+	height: 100px !important;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100px;
+}
+
+/*상단 Primo 메뉴 배경색상*/
+prm-main-menu[menu-type="menu"] .md-button {
+    font-size: 0.75em;
+    color: #ffffff !important;
+    background-color: #987c4d !important;
+
+}
+
+ ._md-text spn[translate="mypref.language.option.ko_KR"] {
+color: #987c4d !important;
+}
+
+/* 상단 PIN 배경색상 */
+.prm-secondary-color, prm-search-bookmark-filter .md-button, prm-topbar .top-nav-bar {
+    background-color: #987c4d;
+}
+/*Primo 상단 오른쪽 즐겨찾기 Pin 배경색상 & 색상 변경 */
+prm-search-bookmark-filter #favorites-button {
+    background-color: #987c4d;
+    z-index: auto !important;
+    color: #fff;
+}
+
+
+/* 상단 로그인 배경색상 */ 
+ .user-button.sign-in-btn-ctm.md-button.md-primoExplore-theme.md-ink-ripple {
+    /*background-color: #987c4d;
+	color: #ffffff !important;*/
+	background-color: white !important;
+	color: black !important;
+	
+}
+
+/*상단 메뉴 배경색상 */
+prm-user-area-expandable .md-button.button-with-menu-arrow:not(.button-with-icon) {
+    min-width: 0;
+    padding: 0 16px;
+    /*background-color: #987c4d;
+	color: #ffffff !important;*/
+	
+	background-color: white !important;
+	color: black !important;
+	
+
+}
+/*상단 검색히스토리, PIN 색상*/
+/*prm-icon.rotate-25 md-icon {
+    transform: rotate(25deg);
+    color: #ffffff !important;
+
+}*/
+
+prm-main-menu[menu-type="menu"] .md-button {
+
+    font-size: 0.75em;
+    /*color: #ffffff !important;
+    background-color: #987c4d !important;*/
+    min-width: 61%;
+	color: black !important;
+    background-color: white !important;
+	
+
+}
+
+
+/*Primo 상단 바 배경색상*/
+prm-search-bar, prm-atoz-search-bar, prm-browse-search-bar, prm-tags-search-bar {
+    background-color: #666 !important;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: inherit;
+}
+
+/*Primo 도서관 로고 사이즈 지정*/
+prm-logo .logo-image, prm-logo img {
+    /*max-height: 100%;*/
+	/*display: none !important;*/
+	/*max-height: 70%;*/
+	margin-top: 15px;
+	width: 300px !important;
+	/*padding: 15px 0;*/
+	display: block;
+	float: left;
+	height: 70px !important;
+	
+}
+
+prm-logo .product-logo{
+    padding: 0;
+    background-color: white;
+}
+
+prm-topbar .md-button {
+    /*background-color: #987c4d;
+    color:#000!important;*/
+	background-color: white;
+    color:black!important;
+	
+}
+
+md-fab-toolbar md-toolbar {
+    background-color: #987c4d !important;
+    color:#000!important!
+}
+
+ /****************** Primo 검색박스 상단 END  ****************************/
+ 
+ 
+ 
+ 
+
+/*Primo 검색박스 하단 배경색상 지정 - 첫 결과 다음에 나오는 화면의 배경색*/
+body
+{
+font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+font-size:15px;
+background-color: #F7F7F7
+}
+
+
+/*Primo 검색박스 하단 첫 결과 다음에 나오는 화면의 배경색*/
+html {
+background-color: #F7F7F7;
+}
+
+
+/*Advanced search link color*/ /*고급검색 링크 색상*/
+prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+    color: #fff;
+}
+
+
+
+/*Advanced search link color*/ /*고급검색 펼쳤을 때 배경 색상*/
+prm-search-bar .advanced-search-backdrop.visible {
+    opacity: 1;
+    z-index: 0;
+    transition: z-index 0s 0s,opacity .5s ease;
+    background-color: #bcbdb6;
+}
+
+/*Advanced search link color*/ /*고급검색 펼쳤을 때 - 기본검색 텍스트 색상*/
+prm-search-bar .search-switch-buttons .md-button.switch-to-simple {
+    color: #ffffff;
+}
+
+prm-topbar .md-button:hover   {
+background-color: #fff;
+}
+
+.prm-primary-bg, prm-spinner.overlay-cover.light-on-dark::after, prm-search-bar {
+    background-color: #fff;
+    color: #000;
+}
+
+md-fab-toolbar md-toolbar {
+    background-color: #fff !important;
+}
+
+
+/*search bar color*/
+/*검색박스 바 배경 색상*/
+prm-search-bar , prm-atoz-search-bar, prm-browse-search-bar, prm-tags-search-bar{
+    background-color: #bcbdb6 !important;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: inherit;
+    }
+
+/*검색버튼 안의 돋보기 색상*/
+.md-button.button-confirm {
+    color: #ffffff;
+	background-color: #000;
+    }
+
+/*검색버튼 배경 색상*/
+prm-search-bar .simple-search-wrapper .search-actions .md-button {
+    background-color: #3F3F3F !important
+	color: #ffffff
+    }
+ 
+
+
+/*the search button*/
+/*검색버튼 마우스 오버 시 버튼 및 돋보기 색상*/
+.md-button.button-confirm:hover:not([disabled]) {
+    color: #000000;
+    background-color: #34aacc
+}
+
+.md-button.button-confirm {
+    color: #ffffff;
+    background-color: #0b7e9f;
+}
+
+
+/*the color of the loading animation*/
+prm-spinner.half-transparent .diamond{
+    background-color:#fff;
+}
+
+
+/*the text color in the search box*/
+input::-webkit-input-placeholder {
+    color: #404040 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #404040 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #404040 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #404040 !important;
+}
+
+
+
+/*오른쪽 상단 Guest 색상 변경*/
+prm-user-area .user-menu-button .user-name {
+    text-transform: none;
+    font-weight: 600;
+    color: rgb(0, 74, 108);
+    text-align: left;
+    max-width: 150px;
+}
+
+
+
+.md-icon-button.custom-button.pin-button.md-button.md-primoExplore-theme.md-ink-ripple.pinned {
+color: #C31532 !important;
+}
+
+
+
+
+/*Primo 검색결과 목록 스크롤 다운 후, 오른쪽 PIN 버튼 안의 PIN 색상 지정 */
+prm-search-bookmark-filter .fixed-to-top #favorites-button, prm-search-bookmark-filter .fixed-to-top #search-button {
+    color: #fff;
+}
+
+/*검색결과 목록 스크롤 다운 후, 맨위로 이동 화살표 색상 지정*/
+prm-search-bookmark-filter #back-to-top-button {
+    background-color: #987c4d;
+}
+
+
+/* 검색 시, 다이아몬드 로딩 색상 변경 */
+prm-spinner.half-transparent .diamond {
+    background-color: #9bb2c4;
+}
+
+
+/* 검색첫페이지 html CSS */
+.md-headline {
+    background-color: #454548;
+    color: #FFF;
+    padding-left: 10px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 1.2em !important;
+	font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* 검색첫페이지 html 배경색을 하얀색으로 변경 */
+.default-card _md md-primoExplore-theme {
+background-color: #ffffff;
+}
+
+/* 검색첫페이지 박스 배경색 및 텍스트 색상 변경 */
+
+md-card.default-card md-card-title {
+    padding: 10px 10px 1px;
+    background-color: #454548;
+    color: #fff;
+}
+
+
+/* 첫페이지 안내 박스 배경색 */
+md-card-content {
+background-color: #ffffff;
+}
+
+
+
+
+/* 검색박스 상단 메뉴에 마우스 오버 시, 텍스트 생상 */
+.md-button.button-over-dark:hover:not([disabled]), rm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) {
+    color: #004A6C;
+  
+}
+
+
+
+
+
+/* 검색결과목록에서 Pin 버튼 색상 변경 */
+.md-icon-button.custom-button.pin-button.md-button.md-primoExplore-theme.md-ink-ripple.pinned {
+color:  #987c4d    !important;
+}
+
+
+/* facets sidebar */
+#facets.sidebar {
+    padding-bottom: 20px;
+    margin-top: 30px;
+    max-width: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+#facets.sidebar input[type='number'] {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin: 3px 8px 0 0;
+    background-color: #fff;
+}
+
+#facets.sidebar label {
+    color: #222 !important;
+    opacity: 1 !important;
+}
+
+#facets.sidebar .facet-title {
+    color: #226091;
+    font-size: 16px;
+}
+
+.section-content .md-chips .md-chip .md-chip-content, .section-content .md-chips .md-chip .facet-title {
+    color: #222;
+}
+
+/* make the lock always show on facets area */
+prm-facet prm-breadcrumbs div.md-chip-content strong {
+    padding-left: 22px;
+}
+
+prm-breadcrumbs .md-chips .md-chip-content .persistence-button {
+    opacity: 1;
+    transform: none;
+    padding-left: -2px;
+}
+
+prm-breadcrumbs .md-chip.persistent-facet strong {
+    padding-left: 0;
+}
+
+prm-breadcrumbs .md-chip.persistent-facet .md-chip-content .persistence-button {
+    left: -1px;
+}
+
+/* page background */
+body, md-content, md-content.md-primoExplore-theme {
+    background-color: #fff;
+}
+
+
+
+.best-location-library-code locations-link {
+    display: none;
+}
+
+prm-brief-result-container .media-content-type {
+    color: #666;
+}
+
+prm-search-result-list .list-spacer {
+    min-height: 150px;
+}
+
+.availability-status.not_restricted {
+    color: #e08303;
+}
+
+
+.sidebar-inner-wrapper {
+	background-color: #ffffff;
+    padding-top: 20px;
+	padding-bottom: 40px;
+	margin-right: 0;
+	max-width: 100%
+	border:0px;
+}
+
+.section-title {
+    text-transform: none;
+    margin: 0.75em 0 .25em;
+}
+
+.sidebar-section.margin-bottom-small.compensate-padding-left.layout-row {
+
+    width: 102%;
+    margin-left: -5px;
+
+}
+
+.section-title.layout-align-start-center.layout-row {
+
+    background-color: #ffffff !important;
+
+}
+
+.section-title.md-button.md-primoExplore-theme.md-ink-ripple.layout-fill {
+
+    background-color: #ffffff; !important;
+
+}
+
+
+
+
+/* make the lock always show on facets area */
+prm-facet prm-breadcrumbs div.md-chip-content strong {
+    padding-left: 22px;
+}
+
+prm-breadcrumbs .md-chips .md-chip-content .persistence-button {
+    opacity: 1;
+    transform: none;
+    padding-left: -2px;
+}
+
+prm-breadcrumbs .md-chip.persistent-facet strong {
+    padding-left: 0;
+}
+
+prm-breadcrumbs .md-chip.persistent-facet .md-chip-content .persistence-button {
+    left: -1px;
+}
+
+
+prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+    color: #fff;
+}
+
+/*검색결과 검색어 하이라이트 기능*/
+.text-highlight, mark {
+    box-shadow: inset 0 -0.3em 0 0 #8EDAE8;
+}
+
+
+.searchword {
+    font-weight: bold;
+    color: #6a6a6a;
+}
+
+/* brief results link darker blue */
+prm-brief-result .item-title span {
+    color: #1a4c76;
+}
+
+
+/* Facet Section 헤더 */
+.section-title-header, .sidebar-header {
+    text-transform: none;
+    font-weight:600 !important;
+    font-size: 18px !important;
+    color: #000000;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    margin-right: 2em;
+}
+
+
+
+
+.section-content .md-chips .md-chip .facet-title {
+    max-width: 100%;
+    line-height: 1.75em;
+    cursor: pointer;
+    padding: 0px .25em;
+    border-radius: 3px;
+    margin-right: 0.2em;
+    font-family: Calibri, 나눔바른고딕;
+}
+
+
+/* facets sidebar */
+#facets.sidebar {
+    padding-bottom: 20px;
+    margin-top: 30px;
+    max-width: 350px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#facets.sidebar input[type='number'] {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin: 3px 8px 0 0;
+    background-color: #fff;
+}
+
+#facets.sidebar label {
+    color: #222 !important;
+    opacity: 1 !important;
+}
+
+#facets.sidebar .facet-title {
+    color: #666;
+    font-size: 14px;
+}
+
+.section-content .md-chips .md-chip .md-chip-content, .section-content .md-chips .md-chip .facet-title {
+    color: #bcbdb6;
+}
+
+
+
+.section-title prm-icon {
+color:#666;
+}
+
+
+/* 검색결과 아이템별 백그라운드 색상 변경 */
+prm-brief-result-container .list-item-primary-content {
+    padding: 1em 1.5em;
+    z-index: 10;
+    background-color: #ffffff;
+    position: relative;
+    transition: all .4s cubic-bezier(.25,.8,.25,1);
+    transform: translateZ(0);
+}
+
+
+
+
+
+/*상세정보에서 박태준학술정보관 숨기기*/
+span.nextLine.libraryName.holdingLibraryName {
+    display: none;
+}
+/*상세정보에서 소장확인 박스의 '-' 숨기기*/
+ .iframeHeaderContent > em {
+     display: none;
+}
+
+
+/* 검색결과 아이템별 마우스 오버 시 색상 변경 */
+.md-button.arrow-link-button md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > .button-content:focus + ._md-list-item-inner, .md-button.arrow-link-button md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > .button-content:focus + .md-list-item-inner, .md-button.arrow-link-button md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > .button-content:hover + ._md-list-item-inner, .md-button.arrow-link-button md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > .button-content:hover + .md-list-item-inner, .prm-hover-list-element-bg, md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-item > .md-button > .button-content:focus + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-item > .md-button > .button-content:focus + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-item > .md-button > .button-content:hover + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-item > .md-button > .button-content:hover + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item.recommendations-title.hover > span.md-button > span + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item.recommendations-title.hover > span.md-button > span + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item.recommendations-title:hover > span.md-button > span + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item.recommendations-title:hover > span.md-button > span + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list .md-chips .md-chip .md-chip-content:hover md-list-item > .md-button > strong + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list .md-chips .md-chip .md-chip-content:hover md-list-item > .md-button > strong + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list .md-chips md-chip .md-chip-content:hover md-list-item > .md-button > strong + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list .md-chips md-chip .md-chip-content:hover md-list-item > .md-button > strong + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list md-chips .md-chip .md-chip-content:hover md-list-item > .md-button > strong + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list md-chips .md-chip .md-chip-content:hover md-list-item > .md-button > strong + .md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list md-chips md-chip .md-chip-content:hover md-list-item > .md-button > strong + ._md-list-item-inner, md-list.prm-list.prm-linkable-list-items prm-tags-list md-chips md-chip .md-chip-content:hover md-list-item > .md-button > strong + .md-list-item-inner, prm-brief-result-container .list-item-primary-content::before, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + ._md-list-item-inner, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + .md-list-item-inner, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + ._md-list-item-inner, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + .md-list-item-inner, prm-tags-list .md-chips .md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + ._md-list-item-inner, prm-tags-list .md-chips .md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + .md-list-item-inner, prm-tags-list .md-chips md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + ._md-list-item-inner, prm-tags-list .md-chips md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + .md-list-item-inner, prm-tags-list md-chips .md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + ._md-list-item-inner, prm-tags-list md-chips .md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + .md-list-item-inner, prm-tags-list md-chips md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + ._md-list-item-inner, prm-tags-list md-chips md-chip .md-chip-content:hover md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > strong + .md-list-item-inner, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + ._md-list-item-inner, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:focus + .md-list-item-inner, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + ._md-list-item-inner, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item > .md-button > a:hover + .md-list-item-inner {
+    background-color:  #f3f3f3 ;
+}
+
+
+/* Resource Recommender */
+prm-resource-recommender md-card {
+        background-color: #ffffff;
+		box-shadow:3px 3px 5px #f3f3f3;
+    -moz-box-shadow:3px 3px 5px #f3f3f3;
+    -webkit-box-shadow:3px 3px 5px #f3f3f3;
+    -o-box-shadow:3px 3px 5px #f3f3f3;
+    -ms-box-shadow:3px 3px 5px #f3f3f3;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+	padding: 5px;
+}
+
+prm-resource-recommender .resource-header {
+    padding: 1.75em 1em;
+    color: #c80150;
+    font-size: 1.1em;
+}
+
+
+/* 상세정보에서 소장확인 하단 - 숨기기 */
+.iframeHeader {
+    display: none;
+}
+
+
+/* 첫페이지 html 타이틀 박스 radious 처리 */
+md-card.default-card md-card-title:not(#featuredResultTitle), prm-featured-result-item md-card md-card-title:not(#featuredResultTitle) {
+    padding: 8px 11px 11px;
+    border-radius: 0.25em;
+}
+
+.flex-30, .layout-row > .flex-30 {
+    flex: 3 0 29%;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+
+md-card.default-card, prm-featured-result-item md-card {
+    font-size: 1.1em;
+    line-height: 1.5rem;
+    font-weight: 500;
+    max-width: 88%;
+
+}
+
+/* 검색홈 html 용 CSS 시작 */
+.lib-opening {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* 첫 페이지 왼쪽 이미지 클래스 */
+.lib-img {
+    float: left;
+    padding-right: 20px;
+    clear: both;
+}
+
+/* 첫페이지 안내 페이지 타이틀 클랙스 */
+.lib-title {
+    color: #c31532 !important;
+    font-weght: 24pt;
+}
+
+/* My Library Card - My Account 의 Find+Fees, Block 등 숨기기 (20181222 EX LIBRIS 이장호) -시작
+prm-messages-and-blocks-overview{
+          display:none;
+}
+
+prm-fines-overview{
+          display:none;
+}
+
+prm-account-overview md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item:nth-child(4){
+          display:none;
+}
+
+prm-account-overview md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item:nth-child(6){
+          display:none;
+}
+My Library Card - My Account 의 Find+Fees, Block 등 숨기기 (20181222 EX LIBRIS 이장호)  - 끝
+*/
+
+
+
+
+/* 소장자료 상세정보에서 '박태준학술정보관' 숨기기*/
+.nextLine.libraryName.holdingLibraryName {
+    display: none;
+}
+
+
+/*상세정보 자료위치보기 한줄로 표시*/
+.holdingInfo .locate {
+    max-width: 134px !important;
+	}
+	
+
+/* Get it 폰트 변경*/
+.internalSection {
+    position: relative;
+    display: block;
+    padding-right: 90px;
+    background-color: white;
+    padding-bottom: 1em;
+    font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+}
+
+.itemsList {
+font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+}
+
+prm-search-bar .advanced-search-wrapper .inputs-row>md-input-container:last-child {
+    margin-right: 0;
+    background-color: #cecaca6b;
+	border-radius: 0.30em;
+}
+
+/*상세정보 - 소장자료 '예약하기' 버튼으로 표시하기 */
+
+.iframeHeaderContent:hover {
+    background-color: rgb(11, 15, 111) !important;
+    color: #efc510 !important;
+}
+.iframeHeader input[type="submit"] {
+    background-color: #cc2d6c !important;
+    border-radius: 0.5em !important;
+    width: 7em !important;
+    padding: 1px;
+    color: #ffffff !important;
+}
+
+
+.clearfix.iframeHeader.getit {
+    background-color: #cc2d6c;
+    border-radius: 0.5em !important;
+    width: 8em !important;
+    padding: -4.9em;
+    color: #ffffff !important;
+    height: 2.2em;
+}
+
+/* My Library Card에서 대출내역+신청내역 강조하기 위해 색상 변경 시작*/
+.tiles-grid-tile .tile-header .header-link, md-grid-tile .tile-header .header-link {
+     color: #987c4d;
+}
+
+.header-title.layout-align-start-center.layout-row {
+
+    color: #987c4d;
+
+}
+.header-title.layout-row {
+
+    color: #987c4d;
+
+}
+.title {
+
+    color: #987c4d;
+
+}
+
+/* My Library Card에서 대출내역+신청내역 강조하기 위해 색상 변경 끝*/
+
+
+/*My Library Card에서 대출-반납예정일 강조 처리 시작 */
+.normal-text.loans-brief-display {
+    color: #878787;
+    font-weight: normal !important;
+}
+
+/*대출내역에서 반납예정일 만 추가로 강조*/
+.normal-text {
+    color: #187474;
+  font-weight: bold !important;
+  
+  
+}
+/*My Library Card에서 대출-반납예정일 강조 처리 끝 */
+
+/*My Library Card 개요에서 반납예정일, 예약 대기중 강조 처리 시작, 서가브라우즈 텍스트 초록에서 흰색으로(190524) */
+.no-wrap-line, prm-service-details .bold-text {
+    color: #187474;
+	font-weight: bold !important;
+}
+/*My Library Card 개요에서 반납예정일, 예약 대기중 강조 처리 끝 */
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #987c4d;
+    overflow: hidden;
+	z-index: 11;
+	/*lign-content: center;
+	display: inline-block;
+	margin: 0 25% 0 25%;*/
+	width: 100%;
+	margin: auto;
+	width: 100vw;
+	max-width: 1170px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 0px 16px;
+    text-decoration: none;
+	outline: none;
+	letter-spacing: 0px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+	margin-right: 8%;
+	/*margin-left: 5%;*/
+}
+
+
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+	color: #ffffff;
+    font-size: 15px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #987c4d;
+    font-family: Nanum Barun Gothic, sans-serif;
+    margin: 0;
+	letter-spacing: 1px;
+}
+
+.dropdown .dropbtn::after {
+    content: '';
+    border: 4px solid transparent;
+    border-top: 4px solid white;
+    display: inline-block;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+}
+
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    background-color: #ffffff;
+    color: #987c4d;
+    padding: 10px 16px;
+	font-size: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	font-family: Nanum Barun Gothic, sans-serif;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    color: #987c4d;
+}
+
+.dropdown:hover .dropbtn::after {
+    content: '';
+    border: 4px solid transparent;
+    border-top: 4px solid #987c4d;
+    display: inline-block;
+}
+
+
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #987c4d;
+    color: white;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 599px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 599px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+prm-topbar{
+	height: fit-content;
+	/*z-index: 999;*/
+	position: relative;
+	display: inline-table;
+	width: 100%;
+}
+
+
+.content{
+	padding: 0;
+	background-color: #987c4d !important;
+}
+
+
+/* navigation bar*/
+
+prm-topbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+prm-topbar li {
+    float: left;
+}
+
+prm-topbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	/*font-family: sans-serif;
+	font-size:14px;*/
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+   color: #987c4d;
+   background-color:white;
+}
+
+li a:focus {     
+    background-color:white;    
+    color:black;
+}
+
+li a:active {     
+    background-color:white;    
+    color:black;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  ul{
+    display: none;
+  }
+}
+
+/* 검색 안내 페이지 2022.04.01 */
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    ul{
+      display: block;
+    }
+  
+    .flex-60, .layout-row>.flex-60 {
+      max-width: 100% !important;
+  
+  }
+  
+  .flex-40, .layout-row>.flex-40 {
+  
+      max-width: 100% !important;
+   
+  }
+  
+  
+  }
+
+  /* 흰색 메뉴 bar 2022.04.01 */
+
+  .content-nav {
+    background-color: white !important;
+  }
+
+/*end navigation bar*/
+
+/* hide the text under search bar 2022.03.30.
+md-card.default-card, prm-featured-result-item md-card{
+	display: none;
+} */
+
+
+/* Fix mobile UI */
+@media (max-width: 600px) {
+	.md-headline {
+		background-color: transparent;
+		padding-left: 0px;
+	}
+
+	.lib-img{
+		margin-bottom: 20px;
+	}
+	.lib-opening{
+		display: inline-block;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	prm-main-menu[menu-type=full] .md-button .md-headline, prm-main-menu[menu-type=full] .overlay-menu-item .md-headline{
+		color: #987c4d;
+	}
+	prm-main-menu[menu-type=full] .md-button, prm-main-menu[menu-type=full] .overlay-menu-item{
+		color:black;
+	}
+		md-dialog.light-on-dark-dialog{
+	background-color:white;
+	}
+	/* remove scroll bar */
+	md-dialog md-dialog-content{
+		overflow: hidden !important;
+
+	}
+	.layout-full-height{
+			overflow-y: scroll;
+	}
+}
+
+/* Fix logo too big when zooming in */
+@media only screen and (max-width: 650px) {
+ prm-logo .logo-image, prm-logo img {
+  height: 51px !important;
+  width: 220px !important;
+  margin-top: 20px;
+  margin-left: 10px;
+ }
+}
+
+
+a.md-icon-button{
+	color: black !important;
+	background-color: lightgrey !important;
+}
+a.md-icon-button:hover{
+	color: white !important;
+	background-color: #987c4d !important;
+}
+prm-search-bookmark-filter #favorites-button prm-icon svg{
+	transition: all 0s cubic-bezier(.25,.8,.25,1);
+	transition-duration: 0s;
+}
+prm-search-bookmark-filter #favorites-button md-icon{
+	transition-duration: 0s;
+	transition-delay: 0s;
+}
+
+prm-user-area-expandable .md-button.user-button .menu-arrow{
+	color: black !important;
+}
+
+/* Library card */
+.tiles-grid {
+
+    column-width: 27em;
+    column-gap: 1em;
+}
+	
+	
+	
+	
+	.results-count{
+    font-size: 18px
+}
+
+
+
+md-select-menu md-content md-option {
+    height: 30px;
+}
+
+
+p.bold-text {
+    color:red
+}
+
+/* Library card loans */
+.separate-list-items md-list-item .md-list-item-text {
+
+    max-width: 100%;
+    padding: 0.1em 2em;
+
+}
+/* Text SMS Style */
+.sms{
+	font-size: 10px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: rgba(58,58,58,.8);
+	opacity: 1;
+    transition: all .4s cubic-bezier(.25,.8,.25,1);
+    transition-duration: .25s;
+    transform: translateZ(0) scaleX(1);
+	max-width: 105px;
+	border-radius: 0;
+	padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
+    white-space: normal;
+}
+
+.sms .md-button {
+	font-size: 10px;
+	padding-bottom: .75em;
+    padding-top: .75em;
+	
+}
+
+
+span.englishInMenu{
+
+	position: relative;
+	top: -1px;
+	font-size: 16.5px;
+}
+
+
+
+prm-breadcrumbs .md-chips .md-chip-content .persistence-button {
+
+    position: inherit;
+	
+}
+
+
+
+
+/*검색결과가 없을 때 검색결과 없음 메시지 표시*/ 
+
+prm-no-search-result md-card.default-card { 
+display: block; 
+} 
+
+
+
+
+/* 파란 레이어가 보이는 문제 (case 00679347) */ 
+
+@media (max-width: 600px) { 
+md-backdrop.md-opaque{ 
+background:none; 
+} 
+} 
+
+
+
+/*saved search 아이콘 정렬문제 (case 00679347) */ 
+
+@media (min-width: 400px) 
+{ 
+prm-saved-queries-list .layout-xs-column { 
+-ms-flex-direction: row; 
+flex-direction: row; 
+
+} 
+
+.__xs prm-saved-queries-list .saved-query-actions { 
+position: absolute; 
+} 
+
+} 
+
+
+
+
+/*Syndetic Unbound 우측 서명 잘림현상 방지 (case 00690903) */ 
+
+
+.unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title:before { 
+right: 0px !important; 
+} 
+
+.unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title:after { 
+right: 0px !important; 
+} 
+
+#fullView .unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title:after { 
+background-color: #ffffff!important; 
+} 
+
+#fullView .unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title:after { 
+background-color: #ffffff!important; 
+} 
+
+#full-view-container .unbound_splitdiv .unbound_split_primo_recs .unbound_biblio_plain_title:after { 
+background-color: #F3F3F3!important; 
+} 
+
+#fullView .unbound_splitdiv .unbound_split_primo_recs .unbound_book_container_plain:hover .unbound_biblio_plain_title:after{ 
+background-color: #EBF0F4 !important; 
+} 
+
+#full-view-container .unbound_splitdiv .unbound_split_primo_recs .unbound_book_container_plain:hover .unbound_biblio_plain_title:after{ 
+background-color: #E0E5E9 !important; 
+} 
+
+
+@media (max-width: 599px) 
+{ 
+
+#mainResults prm-brief-result-container > div.result-item-actions.layout-row > button.md-icon-button.custom-button.prm-primary.md-button.md-primoExplore-theme.md-ink-ripple.hide-xs { 
+display: block!important; 
+} 
+
+#briefResultMoreOptionsButton{ 
+display: block!important; 
+} 
+} 
+/* to enable availability-status to be copied */
+.availability-status {
+  -webkit-user-select: auto; /* Safari 3.1+ */
+  -moz-user-select: auto; /* Firefox 2+ */
+  -ms-user-select: auto; /* IE 10+ */
+  user-select: auto; /* Standard syntax */
+}
+
+div[data-main-menu-item="alma_rs_form"] {
+    display: none;
+}
+/* Remove RS_Form in mobile view*/
+prm-main-menu > div > div > md-content > div > div > div.custom-links-container.layout-wrap.layout-align-sm-start-start.layout-align-center-start.layout-row > div:nth-child(5){
+display:none;
+}
+
+/* Remove Collection link in mobile view*/
+prm-main-menu > div > div > md-content > div > div > div.custom-links-container.layout-wrap.layout-align-sm-start-start.layout-align-center-start.layout-row > div:nth-child(6){
+display:none;
+}
+
+
+/* Case 00756045 */
+prm-search-result-list md-card.default-card {
+ display: block!important;
+max-width: 100%!important;
+}
+
+prm-resource-recommender {
+    margin-bottom: 3em!important;
+}
+/* Case 00756045 End*/
+
+/* Case 00757301 */
+prm-search-result-tool-bar .action-list-content prm-action-list {
+    background: #fff!important;
+}
+
+/* Fix dropdown overlay */
+prm-explore-main .header{
+	z-index: auto;
+}
+/* Case 00757301 End*/
+
+prm-explore-main .header .transparent-top-bar:before {
+    opacity: 0;
+}
+
+/* For Alma-D Collection Discovery End*/
+/* Case 00791136 When activating main menu in mobible, all the screen becomes white*/
+
+@media (min-width: 600px)
+{
+	prm-main-menu {
+		display: none !important;
+	}
+}
+/* Case 00791136 When activating main menu in mobible, all the screen becomes white end*/
+
+/* case 00791043 remove 3 thumbnail images brought by sub-collections */
+div.collection-images div:nth-child(2),div.collection-images div:nth-child(3),div.collection-images div:nth-child(4){
+	display:none;
+}
+/* case 00791043 remove 3 thumbnail images brought by sub-collections End*/
+
+
+prm-explore-main .header .transparent-top-bar:before{
+	content: normal;
+}
+
+/* Customization on Collection Lobby Start */
+h2.margin-zero[ng-if="!$ctrl.isGalleryLobby"]{
+	display:none;
+}
+
+h2.margin-zero[ng-if="$ctrl.isGalleryLobby"]{
+	display:none;
+}
+
+span[translate="nui.colldiscovery.items.title"]{
+	display:none;
+}
+
+span[translate="nui.colldiscovery.items.titlClarification"]{
+	display:none;
+}
+
+/* For Alma-D Collection Discovery */
+prm-collection-gallery-header .collection-header-inner.has-transparent-topbar {
+    margin-top: 0px;
+    padding-top: 30px;
+	background-image: url(http://local.4libs.org/summon/snu/collection_header3.png);
+}
+/* Customization on Collection Lobby End */
+
+@media screen and (max-width: 599px) {
+	#facets.sidebar {
+		margin-top: 0px!important;
+
+	}
+}
+
+/*Fric Start*/
+#fricItem{
+	width: 250px;
+	margin-left: 12%;
+}
+
+#fric_image{
+	width:120px;
+}
+
+.list-item:hover{
+	background-color:#f3f3f3;
+}
+.list-item{
+	background-color:#ffffff;
+}
+
+#fricItem md-icon
+{
+	height: 15px;
+    width: 15px;
+    min-height: 15px;
+    min-width: 15px;
+    position: relative;
+}
+/*Fric End*/
+
+/* Hide facet Open access
+
+[data-facet-value="tlevel-open_access"] {
+
+display:none !important;}
+
+div.open-access-mark{
+	display:none !important;
+} */
+
+
+/*
+ * 20220207 Added by bpcdpc@hanmail.net
+ */
+
+/* font family */
+body {
+	font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+.md-headline {
+	font-family: "Source Sans Pro",sans-serif;
+	font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+.section-content .md-chips .md-chip .facet-title {
+	font-family: Calibri, 나눔바른고딕;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+.internalSection {
+	font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif !important;
+	font-weight: 400;
+}
+.itemsList {
+	font-family:Calibri, 나눔바른고딕, "NanumBaerun Gothic", Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif !important;
+	font-weight: 400;
+}
+.dropdown .dropbtn {
+	font-family: Nanum Barun Gothic, sans-serif;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+.dropdown-content a {
+	font-family: Nanum Barun Gothic, sans-serif;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+
+/* top-nav-bar */
+prm-logo .logo-image, prm-logo img {
+	width: 160px !important;
+	height: 26px !important;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 14px;
+}
+@media screen and (min-width: 600px) {
+	prm-logo .logo-image, prm-logo img {
+		width: 284px !important;
+		height: 46px !important;
+		margin-top: 27px;
+		margin-bottom: 27px;
+		margin-left: 0;
+	}
+}
+prm-search-bookmark-filter {
+	margin-right: 0 !important;
+}
+
+/* prm-topbar-after: content */
+.content {
+	display: none;
+	visibility: hidden;
+}
+@media screen and (min-width: 600px) {
+	.content {
+		display: block;
+		visibility: visible;
+		background-color: #987C4C;
+	}
+	.topnav {
+		background-color: #987C4C;
+		display: flex;
+		justify-content: space-around;
+	}
+	.dropdown {
+		margin: 0 !important;
+		float: none;
+	}
+	.dropdown .dropbtn {
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 1;
+		letter-spacing: 0;
+		padding: 14px 16px;
+		background-color: transparent;
+		color: #fff;
+		border: none;
+		outline: none;
+		transition: background-color .1s ease-in-out, color .1s ease-in-out;
+		display: block;
+		position: relative;
+	}
+	.dropdown:hover .dropbtn {
+		background-color: #fff;
+		color: #987C4C;
+	}
+	.dropdown-content {
+		width: 240px;
+	}
+	.dropdown-content a {
+		display: block;
+		font-size: 15px;
+		line-height: 1;
+		color: #323232;
+		padding: 15px 20px;
+		border-bottom: 1px solid #D7D7D7;
+		height: 46px;
+		color: #323232;
+		background-color: #f6f6f6;
+		transition: background-color .3s ease, color .3s ease;
+	}
+	.dropdown-content a:hover {
+		color: #fff;
+		background-color: #323232;
+		box-shadow: none;
+	}
+	.dropdown-content a:last-child {
+		border-bottom: 0;
+	}
+}
+
+/* top bar: content-nav */
+prm-topbar li a {
+	color: #28303d;
+	font-weight: 500;
+}
+prm-topbar li a:hover {
+	color: inherit;
+}
+.md-button.arrow-link-button .button-content:focus, .md-button.arrow-link-button .button-content:hover, .md-button.arrow-link-button .hover.button-content, .md-button.arrow-link-button:focus .button-content, .md-button.arrow-link-button:hover .button-content, .recommendations-title.hover>span>span, .recommendations-title:hover>span>span, a.hover, a:focus, a:hover, prm-chapters-and-reviews md-card>.md-button:focus .item-title span, prm-chapters-and-reviews md-card>.md-button:hover .item-title span, prm-citation-trails-item.active-item md-card>.md-button:focus .item-title span, prm-citation-trails-item.active-item md-card>.md-button:hover .item-title span, prm-tags-list .md-chips .md-chip .md-chip-content:hover strong, prm-tags-list .md-chips md-chip .md-chip-content:hover strong, prm-tags-list md-chips .md-chip .md-chip-content:hover strong, prm-tags-list md-chips md-chip .md-chip-content:hover strong {
+	box-shadow: inset 0 -2px 0 0 #28303d;
+}
+
+/* prm-search-bar */
+prm-search-bar,
+prm-atoz-search-bar,
+prm-browse-search-bar,
+prm-tags-search-bar {
+	background-color: #d7d7d7 !important;
+}
+prm-search-bar .advanced-search-backdrop.visible {
+    background-color: #d7d7d7
+}
+prm-search-bar .simple-search-wrapper .search-actions .md-button {
+	background-color: #28303d;
+	color: #fff;
+}
+prm-search-bar .simple-search-wrapper .search-actions .md-button.button-link {
+    color: #3d6e94;
+    background-color: #fff;
+    border-radius: 0;
+}
+prm-search-bar .simple-search-wrapper .search-actions .md-button.button-link:hover:not([disabled]),
+prm-search-bar .simple-search-wrapper .search-actions .md-button.button-link:focus:not([disabled]) {
+    color: #fff;
+    background-color:  #3d6e94;
+}
+prm-search-bar .simple-search-wrapper .search-actions .md-button.button-confirm {
+	color: #fff;
+	background-color: #28303d;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+prm-search-bar .simple-search-wrapper .search-actions .md-button.button-confirm:hover:not([disabled]),
+prm-search-bar .simple-search-wrapper .search-actions .md-button.button-confirm:focus:not([disabled]) {
+    color: #fff;
+    background-color: #000;
+}
+prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+	color: #53738c;
+}
+prm-search-bar .search-switch-buttons .md-button.switch-to-simple {
+	color: #28303d;
+}
+
+/* facet */
+.section-content .md-chips .md-chip .facet-title._md-focused:not([disabled]),
+.section-content .md-chips .md-chip .facet-title.hovered:not([disabled]),
+.section-content .md-chips .md-chip .facet-title.md-focused:not([disabled]),
+.section-content .md-chips .md-chip .facet-title:focus:not([disabled]),
+.section-content .md-chips .md-chip .facet-title:hover:not([disabled]) {
+	color: #fff !important;
+	background-color: #28303d;
+}
+
+/* search result */
+prm-search-result-tool-bar .md-toolbar-tools {
+	background-color: #f6f6f6;
+}
+
+/* buttons */
+.md-button.button-confirm {
+    color: #fff;
+    background-color: #28303d;
+}
+.md-button.button-confirm:hover:not([disabled]),
+.md-button.button-confirm:focus:not([disabled]) {
+	color: #fff;
+    background-color: #000;
+}
+div:not([#searchResultsContainer]) .md-button._md-focused:not([disabled]),
+div:not([#searchResultsContainer]) .md-button.hovered:not([disabled]),
+div:not([#searchResultsContainer]) .md-button.md-focused:not([disabled]),
+div:not([#searchResultsContainer]) .md-button:focus:not([disabled]),
+div:not([#searchResultsContainer]) .md-button:hover:not([disabled]) {
+	color: #fff;
+	background-color: #28303d;
+}
+prm-atoz-search-bar .simple-search-wrapper md-autocomplete-wrap button._md-focused:not([disabled]), prm-atoz-search-bar .simple-search-wrapper md-autocomplete-wrap button.hovered:not([disabled]), prm-atoz-search-bar .simple-search-wrapper md-autocomplete-wrap button.md-focused:not([disabled]), prm-atoz-search-bar .simple-search-wrapper md-autocomplete-wrap button:focus:not([disabled]), prm-atoz-search-bar .simple-search-wrapper md-autocomplete-wrap button:hover:not([disabled]), prm-browse-search-bar .simple-search-wrapper md-autocomplete-wrap button._md-focused:not([disabled]), prm-browse-search-bar .simple-search-wrapper md-autocomplete-wrap button.hovered:not([disabled]), prm-browse-search-bar .simple-search-wrapper md-autocomplete-wrap button.md-focused:not([disabled]), prm-browse-search-bar .simple-search-wrapper md-autocomplete-wrap button:focus:not([disabled]), prm-browse-search-bar .simple-search-wrapper md-autocomplete-wrap button:hover:not([disabled]), prm-newspapers-search-bar .simple-search-wrapper md-autocomplete-wrap button._md-focused:not([disabled]), prm-newspapers-search-bar .simple-search-wrapper md-autocomplete-wrap button.hovered:not([disabled]), prm-newspapers-search-bar .simple-search-wrapper md-autocomplete-wrap button.md-focused:not([disabled]), prm-newspapers-search-bar .simple-search-wrapper md-autocomplete-wrap button:focus:not([disabled]), prm-newspapers-search-bar .simple-search-wrapper md-autocomplete-wrap button:hover:not([disabled]), prm-search-bar .simple-search-wrapper md-autocomplete-wrap button._md-focused:not([disabled]), prm-search-bar .simple-search-wrapper md-autocomplete-wrap button.hovered:not([disabled]), prm-search-bar .simple-search-wrapper md-autocomplete-wrap button.md-focused:not([disabled]), prm-search-bar .simple-search-wrapper md-autocomplete-wrap button:focus:not([disabled]), prm-search-bar .simple-search-wrapper md-autocomplete-wrap button:hover:not([disabled]), prm-tags-search-bar .simple-search-wrapper md-autocomplete-wrap button._md-focused:not([disabled]), prm-tags-search-bar .simple-search-wrapper md-autocomplete-wrap button.hovered:not([disabled]), prm-tags-search-bar .simple-search-wrapper md-autocomplete-wrap button.md-focused:not([disabled]), prm-tags-search-bar .simple-search-wrapper md-autocomplete-wrap button:focus:not([disabled]), prm-tags-search-bar .simple-search-wrapper md-autocomplete-wrap button:hover:not([disabled]) {
+	color: #fff;
+	background-color: #28303d;
+}
+prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-simple._md-focused:not([disabled]), prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-simple.hovered:not([disabled]), prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-simple.md-focused:not([disabled]), prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-simple:focus:not([disabled]), prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-simple:hover:not([disabled]), prm-browse-search-bar .search-switch-buttons .md-button.switch-to-simple._md-focused:not([disabled]), prm-browse-search-bar .search-switch-buttons .md-button.switch-to-simple.hovered:not([disabled]), prm-browse-search-bar .search-switch-buttons .md-button.switch-to-simple.md-focused:not([disabled]), prm-browse-search-bar .search-switch-buttons .md-button.switch-to-simple:focus:not([disabled]), prm-browse-search-bar .search-switch-buttons .md-button.switch-to-simple:hover:not([disabled]), prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-simple._md-focused:not([disabled]), prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-simple.hovered:not([disabled]), prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-simple.md-focused:not([disabled]), prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-simple:focus:not([disabled]), prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-simple:hover:not([disabled]), prm-search-bar .search-switch-buttons .md-button.switch-to-simple._md-focused:not([disabled]), prm-search-bar .search-switch-buttons .md-button.switch-to-simple.hovered:not([disabled]), prm-search-bar .search-switch-buttons .md-button.switch-to-simple.md-focused:not([disabled]), prm-search-bar .search-switch-buttons .md-button.switch-to-simple:focus:not([disabled]), prm-search-bar .search-switch-buttons .md-button.switch-to-simple:hover:not([disabled]), prm-tags-search-bar .search-switch-buttons .md-button.switch-to-simple._md-focused:not([disabled]), prm-tags-search-bar .search-switch-buttons .md-button.switch-to-simple.hovered:not([disabled]), prm-tags-search-bar .search-switch-buttons .md-button.switch-to-simple.md-focused:not([disabled]), prm-tags-search-bar .search-switch-buttons .md-button.switch-to-simple:focus:not([disabled]), prm-tags-search-bar .search-switch-buttons .md-button.switch-to-simple:hover:not([disabled]) {
+	color: #fff;
+	background-color: #28303d;
+}
+
+
+
